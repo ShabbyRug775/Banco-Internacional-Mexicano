@@ -37,9 +37,9 @@ public class graficoU extends JFrame implements ActionListener, java.io.Serializ
         salir.addActionListener(this);
         salir.setBackground(Color.red);
         add(salir);
-        /* se insertan audios*/
-        player = java.applet.Applet.newAudioClip(getClass().getResource("/Musica/Stal.wav"));
-        player.play();
+
+        // se pueden insertar audios
+        
         // se hace visible
         setVisible(true);
     }
