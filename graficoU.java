@@ -21,14 +21,7 @@ public class graficoU extends JFrame implements ActionListener, java.io.Serializ
         getLayeredPane().add(fondo, JLayeredPane.FRAME_CONTENT_LAYER);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         // buttons
-        ingresar = new JButton("Ingresar");
-        ingresar.setBounds(400, 230, 300, 100);
-        ImageIcon altas = new ImageIcon(getClass().getResource("/imagenes/ingresar.png"));
-        ingresar.setIcon(new ImageIcon(altas.getImage().getScaledInstance(45,
-                45, Image.SCALE_DEFAULT)));
-        ingresar.addActionListener(this);
-        ingresar.setBackground(Color.GREEN);
-        add(ingresar);
+        
         salir = new JButton("Salir");
         salir.setBounds(400, 430, 300, 100);
         ImageIcon exit = new ImageIcon(getClass().getResource("/imagenes/exit.png"));
